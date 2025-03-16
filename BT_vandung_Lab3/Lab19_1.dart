@@ -9,9 +9,14 @@ class Lab19_1 extends StatelessWidget {
         children: [
           Container(
             width: double.infinity,
-            color: Colors.blue,
             padding: const EdgeInsets.all(8),
-            child: const Center(child: Text('B1', style: TextStyle(color: Colors.white))),
+              child: ElevatedButton(onPressed: (){
+              },
+                style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.amber
+                ),
+                child: const Text('Btn 3', style: TextStyle(color: Colors.blue)),
+              )
           ),
           const Expanded(
             flex: 3,
@@ -19,9 +24,14 @@ class Lab19_1 extends StatelessWidget {
           ),
           Container(
             width: double.infinity,
-            color: Colors.blue,
             padding: const EdgeInsets.all(8),
-            child: const Center(child: Text('B2', style: TextStyle(color: Colors.white))),
+            child: ElevatedButton(onPressed: (){
+            },
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.amber
+              ),
+              child: const Text('Btn 3', style: TextStyle(color: Colors.blue)),
+            )
           ),
           const Expanded(
             flex: 2,
@@ -29,9 +39,15 @@ class Lab19_1 extends StatelessWidget {
           ),
           Container(
             width: double.infinity,
-            color: Colors.blue,
             padding: const EdgeInsets.all(8),
-            child: const Center(child: Text('Btn 3', style: TextStyle(color: Colors.white))),
+            child: ElevatedButton(onPressed: (){
+            },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.amber
+              ),
+              child: const Text('Btn 3', style: TextStyle(color: Colors.blue)),
+            )
+
           ),
         ],
       ),
