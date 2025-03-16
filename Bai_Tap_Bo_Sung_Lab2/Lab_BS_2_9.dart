@@ -74,10 +74,10 @@ class _ProgressScreensState extends State<ProgressScreens> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
-        // Đảm bảo các phần tử nằm giữa
+
         children: [
           Container(
-            width: 250, // Đặt chiều rộng để căn giữa
+            width: 250,
             child: LinearPercentIndicator(
               width: 200.0,
               lineHeight: 10.0,

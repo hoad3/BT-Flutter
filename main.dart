@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:study_flutter/BT_vandung_Lab3/Lab17_1.dart';
 import 'package:study_flutter/Lab2/Lab2_1.dart';
 import 'package:study_flutter/Lab2/Lab2_2.dart';
 import 'package:study_flutter/Lab2/Lab2_5.dart';
 import 'package:study_flutter/header/Homepage.dart';
 
+import 'BT_vandung_Lab3/Lab15_1.dart';
+import 'BT_vandung_Lab3/Lab16_1.dart';
+import 'BT_vandung_Lab3/Lab18_1.dart';
+import 'BT_vandung_Lab3/Lab19_1.dart';
+import 'BT_vandung_Lab3/Lab20_1.dart';
 import 'Bai_Tap_Bo_Sung_Lab2/Lab_BS_2_1.dart';
 import 'Bai_Tap_Bo_Sung_Lab2/Lab_BS_2_2.dart';
 import 'Bai_Tap_Bo_Sung_Lab2/Lab_BS_2_3.dart';
@@ -38,7 +44,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const MyHomePage(title: 'Lớp Công nghệ lập trình đa nền tảng.'),
-      home:  ProgressScreens()
+      home:  Lab15_1()
     );
   }
 }
